@@ -257,7 +257,7 @@ class Font extends Supervisor implements IComparable
      *
      * @return Font
      */
-    public function setSize($pValue)
+    public function setSize(float $pValue)
     {
         if ($pValue == '') {
             $pValue = 10;
